@@ -1,24 +1,4 @@
-import {
 
-  ReloadOutlined,
-  SendOutlined,
-  UploadOutlined,
-} from "@ant-design/icons";
-import {
-  Avatar,
-  Button,
-  Card,
-  Col,
-  Flex,
-  Input,
-  Row,
-  Space,
-  Tooltip,
-  Typography,
-  Upload,
-  message,
-  notification,
-} from "antd";
 import dayjs from "dayjs";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { MessageList } from "react-chat-elements";
